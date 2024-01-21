@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Plant Disease Detection </title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/Green Seed Plant, Growing Sprout Logo Design Template.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+   <!-- Bootstrap JS, Popper.js, and jQuery -->
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+
+  <!-- ======= Mobile nav toggle button ======= -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+
+  <!-- ======= Header ======= -->
+  <header id="header">
+    <div class="d-flex flex-column">
+
+      <div class="profile">
+        <img src="assets/img/Green Seed Plant, Growing Sprout Logo Design Template.jpg" alt="" class="img-fluid rounded-circle">
+        <h1 class="text-light"><a href="index.html"> Plant Disease Detection</a></h1>
+        <div class="social-links mt-3 text-center">
+          <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+          <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+          <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+          <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        </div>
+      </div>
+
+      <nav id="navbar" class="nav-menu navbar">
+        <ul>
+          <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
+          <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a></li>
+          <li><a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Plant Identifier</span></a></li>
+          <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Plant Problems</span></a></li>
+          <li><a href="#services" class="nav-link scrollto"><i class="bx bx-server"></i> <span>Log In</span></a></li>
+          <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a></li>
+        </ul>
+      </nav>
+    <!-- .nav-menu -->
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center align-items-center">
+    <div class="hero-container" data-aos="fade-in">
+      <h1> Plant Disease Detector</h1>
+      <p>I can identify <span class="typed" data-typed-items="diseases, pests, weeds "></span> in your plants</p>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>About</h2>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+
+    <!-- ======= Plant identifier Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Plant Identifier</h2>
+        </div>
+
+
+        <div class="container form1">
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <form action="#" method="post">
+                <label for="websiteInput">Enter The description of the plant:</label>
+                <div class="input-group">
+                  <input type="text" id="websiteInput" name="websiteInput" class="form-control" placeholder="Plant's description" required>
+                  <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+      
+            <div class="col-md-6">
+              <form class="form1" action="#" method="post" enctype="multipart/form-data">
+                <label for="imageInput">Search by choosing the image of the plant:</label>
+                <div class="input-group">
+                  <input type="file" id="imageInput" name="imageInput" class="form-control" accept="image/*">
+                  <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary">Upload</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Resume Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Plant Problems </h2>
+        </div>
+
+        <div class="container form1">
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <form action="#" method="post">
+                <label for="websiteInput">Enter The name of the plant:</label>
+                <div class="input-group">
+                  <input type="text" id="websiteInput" name="websiteInput" class="form-control" placeholder="Plant's name" required>
+                  <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+      
+            <div class="col-md-6">
+              <form class="form1" action="#" method="post" enctype="multipart/form-data">
+                <label for="imageInput">Search by choosing the image of the plant:</label>
+                <div class="input-group">
+                  <input type="file" id="imageInput" name="imageInput" class="form-control" accept="image/*">
+                  <div class="input-group-append">
+                    <button type="submit" class="btn btn-primary">Upload</button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <!-- <a href="http://127.0.0.1:5500/inner-page.html" target="_blank"> <button class="send-button send-disease">Send</button></a> -->
+          <a href="#" onclick="delayedRedirect();">
+            <button class="send-button send-disease">Send</button>
+          </a>
+        </div>
+
+        <script>
+          function delayedRedirect() {
+            setTimeout(function() {
+              window.open('http://127.0.0.1:5500/inner-page.html', '_blank');
+            }, 3000); // Change 2000 to the desired delay in milliseconds (2 seconds in this example)
+          }
+        </script>
+        
+      
+        <script>
+  //         document.getElementsByClassName('send-button').addEventListener('send', function(event) {
+  // event.preventDefault(); // Prevents the default form submission behavior
+  
+  // Show loader
+  // document.getElementById('loader').style.display = 'block';
+  
+  // Simulate form submission delay
+  // setTimeout(function() {
+    // Hide loader
+    // document.getElementById('loader').style.display = 'none';
+    
+    // Add your form submission logic here
+
+    // Simulate output page display delay
+    // setTimeout(function() {
+      // Show the output page (replace this with your actual output page display logic)
+      // alert('Output page is ready!');
+      
+      // You can redirect to a new page or update the current page with the output content
+      
+    // }, 2000); // Simulating a 2-second delay, replace with your actual delay or remove this line
+
+  // }, 2000); // Simulating a 2-second delay, replace with your actual delay or remove this line
+// });
+         </script>
+
+        <!-- <form action="#" method="post">
+          <label for="websiteInput">Enter The name of the plant:</label>
+          <input type="text" id="websiteInput" name="websiteInput" placeholder="plant's name" required>
+          <button type="submit">Submit</button>
+        </form>
+
+        <form class="form1" action="#" method="post" enctype="multipart/form-data">
+          <label for="imageInput">Search by choosing the image of the plant:</label>
+          <input type="file" id="imageInput" name="imageInput" accept="image/*">
+          <button type="submit">Upload</button>
+        </form> -->
+      
+
+           <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container">
+
+        <div class="row skills-content">
+
+          <div class="col-lg-6" data-aos="fade-up">
+
+            <div class="progress">
+           <span class="skill">Diseases <i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Pests <i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <!-- <div class="progress">
+              <span class="skill">Weeds <i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div> -->
+
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-up" data-aos-delay="100">
+
+           <div class="progress">
+              <span class="skill">Weeds <i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+ 
+            <div class="progress">
+              <span class="skill">Ask The Botanist<i class="val"></i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div>
+
+            <!-- <div class="progress">
+              <span class="skill">Photoshop <i class="val">55%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="55" aria-valuemin="0" aria-valuemax="100"></div>
+              </div>
+            </div> --> 
+
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Skills Section -->
+
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Log in</h2>
+        </div>
+
+    
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials section-bg">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Our team</h2>
+        </div>
+
+        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
+                <h3>Saumaya </h3>
+                <h4>Back-end web developer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="100">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
+                <h3>Aman </h3>
+                <h4>Back-end web developer</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="200">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <!-- Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim. -->
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
+                <h3> Omkar</h3>
+                <h4>Graphic lead </h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="testimonial-item" data-aos="fade-up" data-aos-delay="300">
+                <p>
+                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+                  <!-- Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam. -->
+                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                </p>
+                <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
+                <h3>Mehak </h3>
+                <h4>Front-end Web developr</h4>
+              </div>
+            </div><!-- End testimonial item -->
+
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row" data-aos="fade-in">
+
+          <div class="col-lg-5 d-flex align-items-stretch">
+            <div class="info">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 290px;" allowfullscreen></iframe>
+            </div>
+
+          </div>
+
+          <div class="col-lg-7 mt-5 mt-lg-0 d-flex align-items-stretch">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <label for="name">Your Name</label>
+                  <input type="text" name="name" class="form-control" id="name" required>
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="name">Your Email</label>
+                  <input type="email" class="form-control" name="email" id="email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="name">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" required>
+              </div>
+              <div class="form-group">
+                <label for="name">Message</label>
+                <textarea class="form-control" name="message" rows="10" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
